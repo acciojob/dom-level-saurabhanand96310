@@ -1,1 +1,10 @@
-//your JS code here. If required.
+//your JS code here. If requi
+document.getElementById('level');
+    var level = 0;
+    while (element && element.parentElement) {
+        level++;
+        element = element.parentElement;
+    }    
+    window.alert(level);
+}
+
