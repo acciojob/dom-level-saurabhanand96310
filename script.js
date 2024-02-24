@@ -5,6 +5,6 @@ document.getElementById('level');
         level++;
         element = element.parentElement;
     }    
-    window.alert(level);
+    alert(level);
 }
 
