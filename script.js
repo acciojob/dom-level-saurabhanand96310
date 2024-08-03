@@ -6,5 +6,5 @@ const element=document.getElementById('level');
         element = element.parentElement;
     }    
     alert("The level of the element is:"level);
-}
+
 
