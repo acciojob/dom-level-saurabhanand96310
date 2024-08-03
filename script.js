@@ -1,11 +1,10 @@
-//your JS code here. If requi
-window.onload = function() {
+function() {
     const element = document.getElementById('level');
     var level = 0;
     while (element) {
         level++;
         element = element.parentElement;
     }    
-    alert("The level of the element is: "+ level);
+    window.alert("The level of the element is: "+ level);
 }
 
