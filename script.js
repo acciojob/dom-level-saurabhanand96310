@@ -1,5 +1,5 @@
 function finder() {
-    const element = document.getElementById('level');
+    let element = document.getElementById('level');
     var level = 0;
     while (element) {
         level++;
