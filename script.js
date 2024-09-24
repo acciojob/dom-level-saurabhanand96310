@@ -1,4 +1,4 @@
-function() {
+function finder() {
     const element = document.getElementById('level');
     var level = 0;
     while (element) {
@@ -7,4 +7,4 @@ function() {
     }    
     window.alert("The level of the element is: "+ level);
 }
-
+finder()
